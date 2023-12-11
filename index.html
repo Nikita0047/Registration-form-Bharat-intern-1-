@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration Form</title>
+		
+		
+<link rel="stylesheet"
+href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity=
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous"> 
+		
+<link rel="stylesheet" type="text/css" href="style.css">
+		
+</head>
+<body>
+	
+	<br>
+	<br>
+	<br>
+	<div class="container" >
+		<div class="row">
+		<div class="col-md-3">
+					
+		</div>
+				
+		<div class="col-md-5 main">
+					
+			<form action="http://localhost:3000/register" method="post">				 
+			<h1> Registration  form </h1>
+							
+			<input class="box" type="text" name="name" id="name"
+			placeholder="Name" required /><br>
+							
+			<input class="box" type="email" name="email" id="email"
+			placeholder="E-Mail " required /><br>
+							
+			<input class="box" type="password" name="password"
+			id="password" placeholder="Password " required/><br>
+							
+			<input class="box" type="text" name="phone" id="phone"
+			placeholder="Phone Number " required/><br>
+						<br>
+                <div class="d-md-flex justify-content-start align-items-center mb-8 py-2">
+                    <h3 class="mb-0 me-4">Gender: </h3>
+  
+                    <div class="form-check form-check-inline mb-2 me-4">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                        value="option1" />
+                      <label class="form-check-label" for="femaleGender">Female</label>
+
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                        value="option2" />
+                      <label class="form-check-label" for="maleGender">Male</label>
+                
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                        value="option3" />
+                      <label class="form-check-label" for="otherGender">Other</label>
+                    </div>   
+			<input type="submit" id="submitDetails"
+			name="submitDetails" value="Submit" /><br>
+
+					
+			</form>
+					
+		</div>
+				
+				
+		<div class="col-md-3">
+		</div>
+				
+	</div>
+	</div>
+</body>
+</html>
